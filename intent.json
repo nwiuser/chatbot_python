@@ -1,0 +1,49 @@
+{"intents": [
+  {"tag": "greeting",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+    "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?","Hey :-)", "Hello, thanks for visiting","Hi there, what can I do for you?"],
+    "context_set": ""
+  },
+  {"tag": "goodbye",
+    "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!","See you later, thanks for visiting","Have a nice day","Bye! Come back again soon."],
+    "context_set": ""
+  },
+  {"tag": "programming",
+    "patterns": ["What is progamming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
+    "responses": ["Programming, coding or software development, means writing computer code to automate tasks."],
+    "context_set": ""
+  },
+  {"tag": "resource",
+    "patterns": ["Where can I learn to code?", "Best way to learn to code", "How can I learn programming", "Good programming resources", "Can you recommend good coding resources?"],
+    "responses": ["Check out the NeuralNine YouTube channel and The Python Bible series (7 in 1)."],
+    "context_set": ""
+  },
+  {"tag": "stocks",
+    "patterns": ["What are my stocks?", "Which stocks do I own?", "Show my stock portfolio"],
+    "responses": ["Here are your stocks!"],
+    "context_set": ""
+  },
+  {
+    "tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  },
+  {
+    "tag": "funny",
+    "patterns": ["Tell me a joke!","Tell me something funny!","Do you know a joke?"],
+    "responses": ["Why did the hipster burn his mouth? He drank the coffee before it was cool.","What did the buffalo say when his son left for college? Bison.","Why don't scientists trust atoms?, Because they make up everything!",
+    "I told my wife she was drawing her eyebrows too high.She looked surprised.",    
+    "What do you call fake spaghetti? An impasta.",
+    "Why did the scarecrow win an award? Because he was outstanding in his field!",
+    "I used to play piano by ear, but now I use my hands and fingers.",
+    "Why don't skeletons fight each other? They don't have the guts."
+    ]
+  },
+  {
+    "tag": "items",
+    "patterns": ["Which items do you have?","What kinds of items are there?","What do you sell?"],
+    "responses": ["We sell coffee and tea","We have coffee and tea"]
+  }
+]
+}
