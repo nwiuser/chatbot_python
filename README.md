@@ -10,11 +10,11 @@ This Python chatbot is designed to interact with users through text-based conver
 - **User Interaction:** The chatbot engages users in meaningful conversations.
 
 ## Files
-`chat.py` : a script to boot the chatbot and receive the input from the user.
-`train.py` : script to train the chatbot on the training data saved in the `intent.json`.
-`intent.json` : json file full of patterns of possible user requests, followed by responses of each pattern.
-`nltk_utils.py` : containes methods of tekoninzing and stemming...
-`model.py` : model of chatbot absed on PyTorch Library
+1. `chat.py` : a script to boot the chatbot and receive the input from the user.
+2. `train.py` : script to train the chatbot on the training data saved in the `intent.json`.
+3. `intent.json` : json file full of patterns of possible user requests, followed by responses of each pattern.
+4. `nltk_utils.py` : containes methods of tekoninzing and stemming...
+5. `model.py` : model of chatbot absed on PyTorch Library
 
 ## Usage
 1. Run the training script: `train.py`
