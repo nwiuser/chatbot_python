@@ -124,13 +124,8 @@
   },
   {
     "tag": "menu",
-    "patterns": ["food menu","food in the shop","Whats there on menu","what is available in the shop?","what foods can we get in the shop?"],
+    "patterns": ["food menu","food in the shop","Whats there on menu","what is available in the shop?","what do you serve?","what foods can we get in the shop?"],
     "responses": ["we serve Tajine, Couscous, Bissara, Besbousa, Elharira with dates"]
-},
-{
-  "tag": "tajine",
-  "patterns": ["tajine","what about the first dish?","how much the tajine","give me tajine, i love it!"],
-  "responses": ["a really moroccan tajine","tajine is classic moroccan dish, i propose it to you","200 drh","okay"]
 }
 ]
 }
